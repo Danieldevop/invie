@@ -5,18 +5,31 @@
     <title>Invie</title>
     <style>
     body{
+<<<<<<< HEAD
       margin: 0;
       border: 5px solid rgb(49, 46, 46);
 
+=======
+      margin:0;
+>>>>>>> RD
     }
     img{
       max-width: 100%;
       vertical-align: top;
+      /*display: none;*/
     }
-
+    img#responsive {
+      display: none;
+    }
+    @media screen and (max-width: 768px){
+      img#responsive{
+        display: block;
+      }
+    }
     </style>
   </head>
   <body>
+    <img src="invie-responsive.png" id="responsive">
     <img src="header.jpg" alt="logo">
     <img src="hero.jpg" alt="">
     <img src="acustica.jpg" alt="">
